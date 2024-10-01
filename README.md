@@ -13,7 +13,7 @@ Surely there exist much better ways of configuring the programs, this is the bes
 
 # Prerequisites
 
-[Visual Studio Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/) and the VS Code Dev Containers [extension]([vscode:extension/ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)) are required.
+[Visual Studio Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/) and the VS Code Dev Containers [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) are required.
 
 # Testing
 
