@@ -1,11 +1,11 @@
-/**
- * \file player.hpp
- * \brief Person class header
- * \author Francesco Orso Pancaldi
- *
- * Player class for cpp-template.
- * Inherits from Person
- */
+//!
+//! @file player.hpp
+//! @brief Player class header
+//! @author Francesco Orso Pancaldi
+//!
+//! Definition of the class 'Player'.
+//! Inherits from Person.
+//!
 
 #ifndef CPP_TEMPLATE_PLAYER_HPP
 #define CPP_TEMPLATE_PLAYER_HPP
@@ -16,38 +16,35 @@
 
 namespace nba {
 
-/**
- * \brief Position on the field
- *
- * PG = Point Guard
- * SG = Shooting Guard
- * SF = Small Forward
- * PF = Power Forward
- * C = Center
- *
- */
+//!
+//! @brief Position on the field
+//!
+//! PG = Point Guard
+//! SG = Shooting Guard
+//! SF = Small Forward
+//! PF = Power Forward
+//! C = Center
+//!
 enum class Position { PG, SG, SF, PF, C };
 
-/**
- * \brief Represents a basketball player
- */
+//! @brief Represents a basketball player
 class Player : public Person {
     Position m_position;
 
   public:
-    /// @brief Constructor
-    /// @param name Full name, separated by a space
-    /// @param salary Non-negative, in millions of dollars
-    /// @param position Position on the field
+    //! @brief Constructor
+    //! @param name Full name, separated by a space
+    //! @param salary Non-negative, in millions of dollars
+    //! @param position Position on the field
     Player(std::string const &name, int salary, Position position)
         : Person(name, salary), m_position{position} {}
 
-    /// @brief Getter for position property
-    /// @return The player's position
+    //! @brief Getter for position property
+    //! @return The player's position
     Position GetPosition() const { return m_position; }
 
-    /// @brief Setter for position property
-    /// @param position Position on the field
+    //! @brief Setter for position property
+    //! @param position Position on the field
     void SetPosition(Position position) { m_position = position; }
 };
 } // namespace nba

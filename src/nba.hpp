@@ -1,10 +1,10 @@
-/**
- * \file person.hpp
- * \brief Person class header
- * \author Francesco Orso Pancaldi
- *
- * Wrapper header for cpp-template
- */
+//!
+//! @file nba.hpp
+//! @brief Wrapper header
+//! @author Francesco Orso Pancaldi
+//!
+//! Wrapper header for cpp-template.
+//!
 
 #ifndef CPP_TEMPLATE_NBA_HPP
 #define CPP_TEMPLATE_NBA_HPP

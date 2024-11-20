@@ -11,9 +11,9 @@ and a tiny program to be documented with Doxygen.
 
 Surely there exist much better ways of configuring the programs, this is the best I can currently do.
 
-# Prerequisites
+# Dependencies
 
-[Visual Studio Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/) and the VS Code Dev Containers [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) are required.
+While not strictly dependencies, [Visual Studio Code](https://code.visualstudio.com/), [Docker](https://www.docker.com/) and the VS Code Dev Containers [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) are required to have all available functionalities.
 
 # Testing
 
@@ -62,5 +62,3 @@ See the related [issue](https://github.com/microsoft/vscode-cpptools/issues/6450
 
 - More continuous integration.
 - Move `.clang-format` into a repository for dotfiles.
-- Add functionalities (e.g. arrow keys actions) to the terminal inside the container.
-- Fix missing link in readme.
